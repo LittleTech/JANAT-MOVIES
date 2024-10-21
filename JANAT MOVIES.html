@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///C:/Users/HP/Desktop/JANAT/JANAT.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JANAT MOVIES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5dcdc;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .carousel {
+            background-color: purple;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            margin-top: 50px; /* Space for fixed navbar */
+        }
+        .cover_image {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        .cover_image img {
+            width: 100%;
+            height: auto;
+        }
+        .genres {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .genre {
+            background-color: rgb(107, 32, 32);
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            flex: 1 1 150px;
+            text-align: center;
+        }
+        .genre img {
+            width: 100%;
+            height: auto;
+            max-width: 150px; /* Set a maximum width */
+            border-radius: 5px;
+        }
+        .top-movies {
+            margin: 20px;
+            text-align: center;
+        }
+        .top-movies h2 {
+            margin-bottom: 20px;
+        }
+        .movie-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            background-color: rgb(74, 114, 201);
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .movie-container img {
+            width: 100px; /* Set a fixed width for images */
+            height: auto;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .movie a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="file:///C:/Users/HP/Desktop/JANAT/JANAT.html#thriller">Thriller</a>
+        <a href="file:///C:/Users/HP/Desktop/JANAT/JANAT.html#horror">Horror</a>
+        <a href="file:///C:/Users/HP/Desktop/JANAT/JANAT.html#adventure">Adventure</a>
+        <a href="file:///C:/Users/HP/Desktop/JANAT/JANAT.html#comedy">Comedy</a>
+    </nav>
+</header>
+
+<div class="carousel">
+    <h1>JANAT MOVIES</h1>
+    <p>THIS IS THE BEST PLATFORM TO BRING YOU CURRENT MOVIES AT YOUR SURF.</p>
+    <p>SEE YOU THERE</p>
+    <div class="cover_image">
+        <img src="./JANAT MOVIES_files/cover.jpeg" alt="Cover Image">
+    </div>
+    <div class="genres">
+        <div class="genre" id="thriller">
+            <h3>Thriller</h3>
+            <img src="./JANAT MOVIES_files/quiet_place.jpeg" alt="A Quiet Place">
+        </div>
+        <div class="genre" id="horror">
+            <h3>Horror</h3>
+            <img src="./JANAT MOVIES_files/phycho.jpeg" alt="Psycho">
+        </div>
+        <div class="genre" id="adventure">
+            <h3>Adventure</h3>
+            <img src="./JANAT MOVIES_files/treasure.jpeg" alt="National Treasure">
+        </div>
+        <div class="genre" id="comedy">
+            <h3>Comedy</h3>
+            <img src="./JANAT MOVIES_files/hangover.jpeg" alt="The Hangover">
+        </div>
+    </div>
+</div>
+
+<div class="top-movies">
+    <h2>THE TOP 5 BEST MOVIES</h2>
+    <div class="movie-container">
+        <img src="./JANAT MOVIES_files/phycho.jpeg" alt="Psycho">
+        <div class="movie"><a href="https://www.youtube.com/watch?v=0WtDmbr9xyY" target="_blank">Psycho</a></div>
+    </div>
+    <div class="movie-container">
+        <img src="./JANAT MOVIES_files/quiet_place.jpeg" alt="A Quiet Place">
+        <div class="movie"><a href="https://www.youtube.com/watch?v=wWdoheOoEZ8" target="_blank">A Quiet Place</a></div>
+    </div>
+    <div class="movie-container">
+        <img src="./JANAT MOVIES_files/treasure.jpeg" alt="National Treasure">
+        <div class="movie"><a href="https://www.youtube.com/watch?v=vqUPxNT8io4" target="_blank">National Treasure</a></div>
+    </div>
+    <div class="movie-container">
+        <img src="./JANAT MOVIES_files/hangover.jpeg" alt="The Hangover">
+        <div class="movie"><a href="https://www.netflix.com/ca/title/70113002" target="_blank">The Hangover</a></div>
+    </div>
+</div>
+
+<footer>
+    © 2024 JANAT MOVIES
+</footer>
+
+
+</body></html>
